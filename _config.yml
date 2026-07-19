@@ -1,0 +1,17 @@
+title: "Góc Truyện Cổ Phong"
+description: "Những truyện ngôn tình cổ đại vừa và ngắn"
+url: "https://site.github.io"
+baseurl: ""
+lang: "vi"
+
+# Chỉ cần thay link này một lần cho toàn bộ website
+affiliate_url: "https://s.shopee.vn/DUONG-LINK-AFFILIATE-CUA-BAN"
+affiliate_label: "Ghé Shopee ủng hộ tác giả"
+affiliate_note: "Đây là liên kết tiếp thị liên kết. Bạn không phải trả thêm chi phí."
+
+markdown: kramdown
+permalink: pretty
+
+exclude:
+  - README.md
+  - template.zip
