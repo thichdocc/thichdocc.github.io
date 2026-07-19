@@ -1,12 +1,12 @@
 ---
 layout: default
 ---
-{% assign story_dir = page.dir | remove: "gioithieu/" %}
+
 
 <article class="story-intro">
   <p class="eyebrow">Giới thiệu truyện</p>
   <h1>{{ page.story_title | default: page.title }}</h1>
-
+{% assign story_dir = page.dir | remove: "gioithieu/" %}
   <img
     class="story-cover"
     src="{{ cover_path | relative_url }}"
