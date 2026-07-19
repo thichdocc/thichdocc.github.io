@@ -3,10 +3,6 @@ layout: default
 ---
 {% assign story_dir = page.dir | remove: "gioithieu/" %}
 
-<img
-    src="{{ story_dir }}cover.jpg"
-    alt="Bìa truyện {{ page.title }}"
-    class="story-cover">
 <article class="story-intro">
   <p class="eyebrow">Giới thiệu truyện</p>
   <h1>{{ page.story_title | default: page.title }}</h1>
